@@ -1,0 +1,23 @@
+{
+  "name": "barList",
+  "version": "1.0.0",
+  "description": "bar list",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "pm2": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
