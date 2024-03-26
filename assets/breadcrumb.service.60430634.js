@@ -1,0 +1,1 @@
+import{al as s,am as n,w as m,N as l}from"./index.6805b766.js";const i=s(()=>{const{t:u}=n({useScope:"global"}),e=m();function o(){l().afterEach(a=>{var t;typeof((t=a.meta)==null?void 0:t.breadcrumb)=="function"&&(e.value=a.meta.breadcrumb(a,u))})}function c(r,a){e.value&&e.value[r]&&(e.value[r].title=a)}return{onMountedBreadcrumbs:o,updateTitle:c,items:e}});export{i as B};
