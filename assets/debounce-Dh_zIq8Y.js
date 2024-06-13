@@ -1,0 +1,1 @@
+function o(n,l=250,i){let e=null;function t(){const u=arguments,c=()=>{e=null,n.apply(this,u)};e!==null&&clearTimeout(e),e=setTimeout(c,l)}return t.cancel=()=>{e!==null&&clearTimeout(e)},t}export{o as d};

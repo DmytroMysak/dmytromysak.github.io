@@ -1,0 +1,1 @@
+import{aV as c,V as s,I as n,W as m}from"./index-CmuCMgBa.js";const i=c(()=>{const{t}=s({useScope:"global"}),e=n();function u(){m().afterEach(a=>{typeof a.meta?.breadcrumb=="function"&&(e.value=a.meta.breadcrumb(a,t))})}function o(r,a){e.value&&e.value[r]&&(e.value[r].title=a)}return{onMountedBreadcrumbs:u,updateTitle:o,items:e}});export{i as B};
